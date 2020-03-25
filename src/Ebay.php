@@ -11,9 +11,10 @@ class Ebay
     {
         $sandbox = config('ebay.mode') == 'sandbox'?true:false;
         $config = [
-            'credentials' => config('ebay.'.config('ebay.mode').'.credentials'),
-            'siteId'     => config('ebay.siteId'),
-            'sandbox' => $sandbox
+            'credentials'   => config('ebay.'.config('ebay.mode').'.credentials'),
+            'ruName'        => config('ebay.'.config('ebay.mode').'.ruName'),
+            'siteId'        => config('ebay.siteId'),
+            'sandbox'       => $sandbox
         ];
 
         $this->config = $config;
