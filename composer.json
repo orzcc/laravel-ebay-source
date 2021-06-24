@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "orzcc/ebay-sdk-php": "^18.0.3"
+        "orzcc/ebay-sdk-php": "^18.0.4"
     },
     "license": "MIT",
     "authors": [
