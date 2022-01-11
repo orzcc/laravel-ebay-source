@@ -27,5 +27,15 @@
             "Hkonnet\\LaravelEbay\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hkonnet\\LaravelEbay\\EbayServiceProvider"
+            ],
+            "aliases": {
+                "Ebay": "Hkonnet\\LaravelEbay\\Facade\\Ebay"
+            }
+        }
+    }
 }
