@@ -4,13 +4,6 @@
     "type": "library",
     "keywords": ["ebay", "api", "sdk", "laravel", "laravel5", "php"],
     "license": "MIT",
-    "repositories":
-    [
-        {
-            "type": "vcs",
-            "url": "https://github.com/FmTod1/ebay-sdk-php"
-        }
-    ],
     "require": {
         "php": ">=5.5",
         "orzcc/ebay-sdk-php": "^18.0"
